@@ -1,0 +1,514 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html
+{
+	scroll-behaior: smooth;
+}
+
+body
+{
+	font-size: 16px;
+	font-family: font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,san-serif;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+/* Navigation Section Style */
+.navbar
+{
+	padding: 5px 20px;
+	width: 80%;
+	height: 110px;
+	display: flex;
+	background: white;
+	align-items: center;
+	float: left;
+	position: fixed;
+}
+
+.images_container img:hover
+{
+	opacity: .8;
+}
+.menu_container
+{
+	display: flex;
+}
+.menu_container ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.menu_container ul li
+{
+	margin-left: 40px;
+	list-style-type: none;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.menu_container ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.menu_container ul li a:hover
+{
+	color: orange;
+}
+
+.get_free_container
+{
+	background: orange;
+	width: 20%;
+	height: 110px;
+	padding: 43px 30px;
+	margin: 0 80%;
+	position: fixed;
+}
+
+.get_free_container:hover
+{
+	background-color: #1d82bf;
+}
+
+.get_free_container div
+{
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.get_free_container div a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.get_free_container div a:hover
+{
+	color: white;
+}
+
+.homepage_desc_container
+{
+	width: 100%;
+	display: flex;
+	padding: 40px  20px;
+	background-image: url("../images/container1.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.container_image
+{
+	width: 400px;
+	margin-top: 75px;
+}
+
+.container_image img
+{
+	width: 320px;
+	margin-top: 30px;
+	margin-left: 50px;
+	border-radius: 20px;
+}
+
+.homepage_writeup
+{
+	text-align: center;
+	margin-left: 70px;
+	margin-top: 100px;
+}
+.swiftforth
+{
+	text-decoration: underline;
+}
+.homepage_writeup h1
+{
+	color: white;
+	font-family: arial;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+
+.homepage_writeup p
+{
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+	margin-bottom: 15px;
+	
+}
+
+.get_btn
+{
+	padding: 12px 15px;
+	border: none;
+	background: orange;
+	border-radius: 20px;
+	margin-right: 15px;
+}
+
+.get_btn a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+}
+.get_btn:hover
+{
+	background-color: #1d82bf
+}
+
+.get_btn a:hover
+{
+	color: white;
+}
+
+.view_btn
+{
+	background-color: #1d82bf;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+	padding: 12px 15px;
+	border: none;
+	border-radius: 20px;
+}
+
+.view_btn a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.view_btn a
+{
+	text-decoration: none;
+}
+
+.view_btn:hover
+{
+	background-color: orange
+}
+
+.view_btn a:hover
+{
+	color: black;
+}
+
+
+.Offer_container
+{
+	background: #e1e5ed;
+	width: 100%;
+	height: 200px;
+	margin-to: 80px;
+}
+.what_we_offer
+{
+	display: flex;
+	padding: 70px 75px;
+}
+.what_we_offer h1
+{
+	border-right: 3px solid #1d82bf;
+	padding-right: 35px;
+	
+}
+
+.what_we_offer h1 a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	cursor: text;
+}
+
+.what_we_offer p a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	cursor: text;
+}
+
+.what_we_offer h1
+{
+	margin-right: 40px;
+}
+
+
+/* list Style Section */
+
+.list_container
+{
+	background: #06375c;
+	padding: 20px 40px;
+}
+
+
+.img_list
+{
+	border: 2px solid white;
+	border-radius: 15px;
+	padding: 10px;
+	
+	width: 45%;
+	display: flex;
+	align-items: center;
+	float: left;
+}
+.img_list p
+{
+
+}
+.h3_p_btn
+{
+	margin-left: 20px;
+	color: white;
+}
+
+.img_list img
+{
+	height: 150px;
+	width: 100%;
+	margin-right: 200px;
+	border-radius: 15px;
+}
+
+.more_btn
+{
+	padding: 6px 10px;
+	margin-top: 15px;
+	background: none;
+	border: 1px solid white;
+	color: orange;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+.more_btn:hover
+{
+	color: white;
+	background-color: #1d82bf;
+}
+
+
+.img_list1
+{
+	border: 2px solid white;
+	border-radius: 15px;
+	padding: 10px;
+	width: 45%;
+	display: flex;
+	align-items: center;
+	margin-left: 50%;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.img_list1:hover, .img_list2:hover, .img_list3:hover
+{
+	opacity: .8;
+}
+
+.img_list1 img
+{
+	height: 150px;
+	width: 100%;
+	margin-right: 200px;
+	border-radius: 15px;
+}
+
+.h3_p1
+{
+	color: white;
+	padding: 15px;
+}
+
+.img_list2
+{
+	border: 2px solid white;
+	border-radius: 15px;
+	width: 45%;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	float: left;
+}
+
+.img_list2 img
+{
+	height: 150px;
+	width: 100%;
+	margin-right: 200px;
+	border-radius: 15px;
+}
+
+.h3_p2
+{
+	color: white;
+	padding: 15px;
+}
+
+.img_list3
+{
+	border: 2px solid white;
+	border-radius: 15px;
+	width: 45%;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+	margin-top: 45px;
+	margin-left: 50%;
+}
+
+.img_list3 img
+{
+	height: 150px;
+	width: 100%;
+	margin-right: 200px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.h3_p3
+{
+	color: white;
+	padding: 15px;
+}
+
+/* FOOTER SEDCTION */
+
+.footer_container
+{
+	background: #e1e5ed;
+	padding-left: 90px;
+	border-top: 5px solid orange;
+	border-bottom: 5px solid orange;
+}
+/*
+.footer_top
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_column
+{
+	margin-right: 100px;
+	margin-top: 20px;
+}
+*/
+.footer_top
+{
+	margin-top: 25px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.footer_column h3
+{
+	color: orange;
+	font-size: 16pz;
+	font-family: arial;
+}
+
+.footer_column h3:hover
+{
+	color: black;
+}
+
+.footer_column ul li
+{
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.footer_column ul 
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.footer_column ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+}
+
+.footer_column ul li a:hover
+{
+	color: orange;
+}
+
+
+/* Footer Bottom */
+.footer_bottom
+{
+	background: #06375c;
+	height: 130px;
+}
+
+.social_container h3
+{
+	text-align: center;
+	color: white;
+	font-family: arial;
+	padding: 10px 3px;
+}
+
+
+.social_container h3:hover
+{
+	color: orange;
+}
+
+
+.social_links
+{
+	list-style-type: none;
+	color: white;
+	margin-left: 37%;
+}
+
+
+.social_links a
+{
+	list-style-type: none;
+	color: white;
+	padding: 15px;
+	font-size: 18px;
+}
+
+.social_links a:hover
+{
+	color: orange;
+}
+
+.copyright_container
+{
+	text-align: center;
+	margin: 15px 0;
+	color: white;
+	
+}
